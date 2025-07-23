@@ -1,0 +1,67 @@
+10/23: Define straight finger[x]
+Define Curled finger[0]
+Recall 'knuckle pointer'[x]
+Pinky Doesn't work[x]
+Flag 'Up'[x]
+
+\
+10/24:
+Goals:
+    [x]Finish flag up (turn flag down)
+    Gesture 'up' (finger up and oscilating vertically)
+    Hand swipe left(right hand perception)
+    Hand swipe right(left hand perspective)
+    Consider Modulizing FingerLock
+
+11/2:
+    [x]Make sense of gesturedata:
+        when the difference on 
+        Assumption: A 'gesture up is'
+    Code gesture algorytheom
+
+11/3:
+    Restrucutre the data on runtime to a dataframe
+    Implement the jump when the diff exceeds .1
+12/13:[x]Fix the pointer lock
+[x]**  Modulaize the main loop: we have everything written in a 100 line loop - should be reduced with a main function with
+    active/inactive functions within: This should make adding and retiring functions much simpler.
+Gesture Up Additional instructions:
+    Make sure that finger remains "vertical"(Run Tests to determine what vertical means)
+    Add additional finger landmarks + Determine what is the best combining qualifier
+
+
+12/18:
+    Finalize gesture up with angle logic
+    start on: Gesture Left(right hand) - gesture opposite
+
+1/11:
+    Gesture Left
+    Start on Gesture Right (With Thumb)
+
+More goals:
+    Hand swipe left(right hand perception)
+    Hand swipe right(left hand perspective)
+    Add Back in retired functions
+    Fix missing landmarks (See what it looks like to take off the wrist)
+    'Calibrate' someones gesture thresholds
+    Add extend finger modules, but keep retired OR keep a retired repository
+    Build a simple UX that can prototype what this does.
+    Improve the accuracy of g2
+    Make and implement a master data frame with all data frame over frame: all fingers, all x,y,z coordingates.
+Beyond the program:
+    User interface (maybe a game) to showcase the progress.
+Pan the contrast until hand is found ( dark room usable)
+
+
+1) Increase the contrast so you can see brown people
+2) Flag directions (up down)
+    a)Up[x]
+        [x]Long Box with 'big dipper' constalation
+    b)down
+    d)left
+    )right
+    c)Select
+    )Counter Select
+    Home
+
+Notes:  There exists sensitivity to the camera angle.  There will need to be a bugfix layed out to adjust for this.

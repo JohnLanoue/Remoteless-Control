@@ -1,0 +1,9 @@
+Morale: I am going to want to put a bow on this swiftly, to either build out a UX or to move on.
+(check out mission statement) 
+My imagination of this being a viable and competitive prodcut is dwindlin.
+I do think that this is good exposure to Computer Vision, however, I think I can do better if I get back to learning NLP.
+
+
+
+Gesture Data:
+Hand Mem: An array containing the current frames x,y,z(, and frame#)coordinates of all landmarks.
